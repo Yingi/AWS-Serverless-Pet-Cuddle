@@ -7,7 +7,7 @@ In this stage, we will be creating an `IAM Role` for the lambda function, we wil
 
 We can create the role on our `AWS Management Console` directly, but it will save us time if we can use `CloudFormation`. We will create an `IAM role` which the `email_reminder_lambda` will use to interact with `SES`. So lets use `Cloudformation`
 
-- Click https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateURL=https://learn-cantrill-labs.s3.amazonaws.com/aws-serverless-pet-cuddle-o-tron/lambdarolecfn.yaml&stackName=LAMBDAROLE 
+- Click https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?stackName=LAMBDAROLE&templateURL=https://kem-labs-stack.s3.amazonaws.com/lambdarolecfn.yaml
 
 - Check the `I acknowledge that AWS CloudFormation might create IAM resources`. box and then click `Create Stack`
 
