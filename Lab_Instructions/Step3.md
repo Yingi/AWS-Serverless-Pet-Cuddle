@@ -8,7 +8,7 @@ In this stage we will be creating an State Machine(Step functions) which is the 
 
 We will again be creating an `IAM role` for our state machine using `Cloud Formation`
 
-- Click https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?stackName=StateMachineRole&templateURL=https://kem-labs-stack.s3.amazonaws.com/lambdarolecfn.yaml
+- Click https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?stackName=StateMachineRole&templateURL=https://kem-labs-stack.s3.amazonaws.com/statemachinerole.yaml
 
 - Check the `I acknowledge that AWS CloudFormation might create IAM resources` box and then click `Create Stack`
 
